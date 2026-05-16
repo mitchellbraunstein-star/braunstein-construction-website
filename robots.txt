@@ -1,0 +1,30 @@
+# Braunstein Construction — robots.txt
+# Allow all reputable crawlers (Google, Bing, etc.) and AI agents
+# that respect the protocol (GPTBot, ClaudeBot, PerplexityBot, etc.)
+
+User-agent: *
+Allow: /
+
+# Explicit allow for known AI crawlers — make our content easy to discover
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://braunsteinconstruction.com/sitemap.xml
